@@ -8,7 +8,7 @@ Fill your world with colorful flowers!
 
 * [Github](https://github.com/minefaco/beautiflowers)
 * [Contentdb](--not yet)
-* [forums](https://forum.minetest.net/viewtopic.php?p=383571#p383571)
+* [forums](https://forum.minetest.net/viewtopic.php?f=9&t=26318)
 
 ## License
 
