@@ -18,6 +18,8 @@ __Code__
 
 by minefaco GPLv3.0 (License for code)
 
+code for bonsai's abm are taken from default flowers mod.
+
 __Textures__
 
 BTL-games under CC0 license.
