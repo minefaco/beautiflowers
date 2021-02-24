@@ -4,6 +4,8 @@ Adds many flowers to minetest.
 
 Fill your world with colorful flowers!
 
+You can configure the amount of flowers that you want at your world. Just open spawn.lua
+
 ## Links 
 
 * [Github](https://github.com/minefaco/beautiflowers)
