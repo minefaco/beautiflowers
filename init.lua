@@ -1,5 +1,6 @@
 beautiflowers = {}
 local mpath = minetest.get_modpath("beautiflowers")
+local pot = minetest.get_modpath("flowerpot")
 
 beautiflowers.flowers ={
 
@@ -138,7 +139,9 @@ for i = 1, #flowers do
 		    {"beautiflowers:"..name}
 	    },
     })
-
-end
+    
+    if pot then
+	   flowerpot.register_node("beautiflowers:"..name)
+    end
 
 dofile(mpath .. "/spawn.lua")
