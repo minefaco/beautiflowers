@@ -143,5 +143,6 @@ for i = 1, #flowers do
     if pot then
 	   flowerpot.register_node("beautiflowers:"..name)
     end
+end
 
 dofile(mpath .. "/spawn.lua")
