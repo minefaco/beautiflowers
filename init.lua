@@ -145,4 +145,50 @@ for i = 1, #flowers do
     end
 end
 
+minetest.register_craft({
+	output = "beautiflowers:bonsai_1",
+	recipe = {
+		{"default:cobble", "default:cobble", "default:cobble"},
+		{"default:cobble", "default:sapling", "default:cobble"},
+        {"default:cobble", "default:cobble", "default:cobble"}
+	}
+})
+
+minetest.register_craft({
+	output = "beautiflowers:bonsai_2",
+	recipe = {
+		{"default:cobble", "default:sapling", "default:cobble"},
+		{"default:cobble", "default:cobble", "default:cobble"},
+        {"default:cobble", "default:sapling", "default:cobble"}
+	}
+})
+
+minetest.register_craft({
+	output = "beautiflowers:bonsai_3",
+	recipe = {
+		{"default:cobble", "default:sapling", "default:cobble"},
+		{"default:cobble", "default:sapling", "default:cobble"},
+        {"default:cobble", "default:sapling", "default:cobble"}
+	}
+})
+
+minetest.register_craft({
+	output = "beautiflowers:bonsai_4",
+	recipe = {
+		{"default:cobble", "default:sapling", "default:cobble"},
+		{"default:sapling", "default:cobble", "default:sapling"},
+        {"default:cobble", "default:sapling", "default:cobble"}
+	}
+})
+
+minetest.register_craft({
+	output = "beautiflowers:bonsai_5",
+	recipe = {
+		{"default:cobble", "default:sapling", "default:cobble"},
+		{"default:sapling", "default:sapling", "default:sapling"},
+        {"default:cobble", "default:sapling", "default:cobble"}
+	}
+})
+
+
 dofile(mpath .. "/spawn.lua")
